@@ -1,0 +1,80 @@
+@import "colors.scss";
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("../fonts/SourceSansPro-Regular.ttf") format("truetype");
+}
+
+body {
+  margin: 0;
+  font-family: "Source Sans Pro";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.content {
+  flex: 1;
+}
+
+.row-content {
+  height: 80vh;
+}
+
+.box-content {
+  padding-top: 16px;
+  text-align: center;
+}
+
+.form-container {
+  margin-top: 30px;
+}
+
+.zero-radius {
+  border-radius: 0rem;
+}
+
+.txt-input {
+  border-radius: 30px;
+  height: 60px;
+  font-size: 1.2rem;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.btn {
+  width: 200px;
+  border-radius: 2rem;
+}
+
+.btn-disabled {
+  color: $fontdisabled;
+  background-color: $disabled;
+  border-color: $disabled;
+}
+
+.btn-disabled:hover {
+  box-shadow: 0 1px 1px $shadow;
+}
+
+.btn-process {
+  color: $fontactive;
+  background-color: $active;
+  border-color: $active;
+}
+
+.btn-process:hover {
+  color: $fontactive;
+  box-shadow: 0 1px 1px $shadow;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 50px;
+  background: $footer;
+  line-height: 3;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-top: 1px solid $border;
+}

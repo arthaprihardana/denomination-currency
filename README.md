@@ -1,6 +1,16 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Mini Project for test in Tokopedia as Software Engineer - Web - FE
 
-## Available Scripts
+## Task in this project
+
+1.  [x] Define rupiah fractions amount 100000, 50000, 20000, 10000, 5000, 1000, 500, 100 and 50.
+2.  [x] Filter and validation input amount from user.
+3.  [x] Parse input amount from user to Integer / Number.
+4.  [x] Create function for denomination value.
+5.  [x] Test Case.
+
+## How to running this project
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 In the project directory, you can run:
 
