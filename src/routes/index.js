@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Route, Switch, Redirect } from 'react-router-dom';
 import AppRoutes from './routes';
-import { NavBar, Footer } from '../components';
+import { NavBar } from '../components';
 
 const Page = ({ component: Component, ...rest }) => (
     <Route {...rest} render={props => (
@@ -20,7 +20,6 @@ class App extends Component {
                     ))}
                     <Redirect from="*" to="/not-found" />
                 </Switch>
-                <Footer />
             </div>
         );
     }
